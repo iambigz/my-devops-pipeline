@@ -10,3 +10,9 @@ jobs:
 
     - name: Run Python script
       run: python script.py
+
+    - name: Install pytest
+      run: pip install pytest
+
+    - name: Run tests
+      run: pytest
