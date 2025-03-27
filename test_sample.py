@@ -1,2 +1,5 @@
-def test_add():
-    assert 1 + 1 == 2
+# test_example.py
+from script import greet
+
+def test_greet():
+    assert callable(greet)
